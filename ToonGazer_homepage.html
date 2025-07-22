@@ -1,34 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToonGazer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToonGazer</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="header-logo">
-            <img src="img/ToonGazer_Logo_Transparent.png" alt="ToonGazer Logo">
+
+    <header>
+        <div class="container_header">
+            <div class="logo">
+                <img src="img/ToonGazer_Logo_Transparent.png" alt="ToonGazer">
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Browse</a>
+                <a href="#">Login</a>
+                <a href="#">Sign Up</a>
+            </nav>
         </div>
-        <div class="header">
-            <h1>Create Together</h1>
-            <p>A collaborative platform for comic creators</p>
-        </div>
-        <div class="middle-container-1">
-            <p>Projects</p>
-            <button>Browse All</button>
-        </div>
-        <div class="middle-container-2">
-            <p>Find Creators</p>
-            <button>Writer</button>
-            <button>Artist</button>
-            <button>Group</button>
-        </div>
+    </header>
 
+    <div class="container_wrap">
+        <section class="hero">
+            <h1>Welcome to ToonGazer</h1>
+            <p>Your place to read and share stories.</p>
+            <!--<button>Start Reading</button> "can add later on"-->
+        </section>
 
+        <section class="featured">
+            <h2>Featured</h2>
+            <div class="comic-grid">
+            <div class="comic">
+                <div class="thumb"></div>
+                <p>Title</p>
+                <span class="tag">Romance</span>
+            </div>
+            <div class="comic">
+                <div class="thumb"></div>
+                <p>Title</p>
+                <span class="tag">Action</span>
+            </div>
+            <div class="comic">
+                <div class="thumb"></div>
+                <p>Title</p>
+                <span class="tag">Fantasy</span>
+            </div>
+            <div class="comic">
+                <div class="thumb"></div>
+                <p>Title</p>
+                <span class="tag">Drama</span>
+            </div>
+            </div>
+        </section>
 
-
-
-    </div>
+        <section class="about">
+            <h3>About</h3>
+            <p>ToonGazer is a growing platform where creators share original comics and readers discover new worlds.</p>
+        </section>
+  </div>
 </body>
 </html>
