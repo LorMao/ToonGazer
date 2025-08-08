@@ -11,11 +11,6 @@
     line-height: 1.6;
   }
   
-  .container_header {
-    display: flex;
-    max-width: 1500px;
-    margin: 0 auto;
-  }
 
   .container_wrap {
     max-width: 1200px;
@@ -40,18 +35,28 @@
     width: 100px;
     height: auto;
   }
+
+  .container_header {
+    display: flex;
+    max-width: 1500px;
+    margin-left: 200px;
+  }
   
   nav a {
     margin-left: 20px;
+    padding-top: 15px;  
+    padding-bottom: 8px;  
+    display: inline-block;
     text-decoration: none;
-    color: #333;
-    font-weight: 500;
+    color: #202020;
+    font-weight: bold;
+  
   }
   
   .hero {
     text-align: center;
     padding: 3rem 1rem;
-    background: #eaeaea;
+    background: #f7bd40;
   }
   
   .hero h1 {
